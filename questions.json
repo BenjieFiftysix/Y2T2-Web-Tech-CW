@@ -1,0 +1,171 @@
+{
+    "title": "Web Development Quiz",
+    "levels": [
+        {
+            "title": "HTML",
+            "image": "html.png",
+            "questions": [
+                {
+                    "query": "which element comes first?",
+                    "answers": ["<!doctype>", "<head>", "<header>", "<html>"]
+                },
+                {
+                    "query": "which element comes last?",
+                    "image": "logo.png",
+                    "answers": ["<header>", "<!doctype>", "<head>", "<html>"]
+                },
+                {
+                    "query": "what does HTML stand for?",
+                    "answers": ["Hyper Text Markup Language", "Hyperlinked Text Machine Language", "Helpful Text for Modular Learning", "Heather Thompson & Mark Lewis"]
+                },
+                {
+                    "query": "which one is wrong?",
+                    "answers": ["<doctype>", "<header>", "<head>", "<html>"]
+                },
+                {
+                    "query": "How do you insert a line break?",
+                    "answers": ["<br>", "<break>", "\\n", "<lb>"]
+                },
+                {
+                    "query": "How do you insert an image?",
+                    "image": "image.png",
+                    "answers": ["<img src=\"image.png\">", "<img href=\"image.png\">", "<a href=\"image.png\">", "<image src=\"image.png\">"]
+                },
+                {
+                    "query": "How do you close the html tag?",
+                    "answers": ["</html>", "<\\html>", "<end html>", "another <html>"]
+                },
+                {
+                    "query": "What's wrong with this html?",
+                    "image": "html1.png",
+                    "answers": ["Closing tags use \\", "The <title> should be inside <body>", "! should be escaped", "There should be a <foot> section after <\\body>"]
+                },
+                {
+                    "query": "what does 6//4 equate to in html?",
+                    "answers": ["6//4", "1.5", "1", "000004"]
+                },
+                {
+                    "query": "what is the largest heading?",
+                    "answers": ["<h1>", "<H6>", "<heading>", "<large>"]
+                },
+                {
+                    "query": "How do you make a list with bullet points?",
+                    "answers": ["<ul>", "<ol>", "<li>", "<points>"]
+                },
+                {
+                    "query": "What is the correct way to make a dropdown menu",
+                    "answers": ["<select>", "<input type=\"list\">", "<list>", "<input type=\"dropdown\">"]
+                }
+            ]
+        },
+        {
+            "title": "CSS",
+            "image": "css.png",
+            "questions": [
+                {
+                    "query": "How do you make an element take up the full height of the viewport?",
+                    "answers": ["height: 100vh;", "height: 100%;", "height: 1080px;", "height: absolute;"]
+                },
+                {
+                    "query": "what selects a class?",
+                    "answers": [".class", "#class", ":class", "*class"]
+                },
+                {
+                    "query": "How do you change the colour of text?",
+                    "answers": ["color: #FFF;", "font-color: #FFF;", "text-colour: #FFF;", "p > color: #FFF;"]
+                },
+                {
+                    "query": "How do you select the <p>here</p> element?",
+                    "image": "css1.png",
+                    "answers": ["#content > div > a > p", "#content div a p", ".content > div > a > p", "a > p"]
+                },
+                {
+                    "query": "what does CSS stand for?",
+                    "answers": ["Cascading Style Sheets", "Clear Site Style", "Cool Subway Sandwiches", "Computer System Styler"]
+                },
+                {
+                    "query": "How do you use inline element styles?",
+                    "answers": ["<element style=\"style: value;\">", "<element class=\"style: value;\">", "<style>", "<element css=\"style: value;\">"]
+                },
+                {
+                    "query": "What is the correct CSS syntax?",
+                    "answers": ["body {color: red;}", "body:color=red;", "{body:color=red;}", "body {\"color\": \"red\"}"]
+                },
+                {
+                    "query": "How do you load an external style sheet?",
+                    "answers": ["<link re=\"stylesheet\" type=\"text/css\" href=\"style.css\">", "<link type=\"text/css\" href=\"style.css\">", "<style href=\"style.css\">", "<link re=\"stylesheet\" src=\"style.css\">"]
+                },
+                {
+                    "query": "Where in the html document do you load an external style sheet?",
+                    "answers": ["in <head>", "after <!doctype html>", "in <header>", "at the top of the file"]
+                },
+                {
+                    "query": "How do you define an internal style sheet?",
+                    "answers": ["<style>", "<css>", "<script>", "<link>"]
+                },
+                {
+                    "query": "How do you write a comment in CSS",
+                    "answers": ["/* comment */", "# comment", "// comment", "<!-- comment -->"]
+                },
+                {
+                    "query": "what selects an id?",
+                    "answers": ["#id", ".id", ":id", "*id"]
+                }
+            ]
+        },
+        {
+            "title": "Javascript",
+            "image": "javascript.jpg",
+            "questions": [
+                {
+                    "query": "how do you write an if statement in javascript?",
+                    "answers": ["if (cond == true) {...}", "if cond == true:\n    ...", "if cond == true {...}", "(cond == true) : {...} ? {}"]
+                },
+                {
+                    "query": "how do you load an external javascript file?",
+                    "answers": ["<script src=\"script.js\">", "<link rel=\"script\" type=\"text/javascript\" href=\"script.js\">", "<link type=\"text/javascript\" src=\"script.js\">", "<script href=\"script.js\">"]
+                },
+                {
+                    "query": "what is not a javascript engine?",
+                    "answers": ["WebAssembly", "SpiderMonkey", "V8", "Chakra"]
+                },
+                {
+                    "query": "how do you put javascript in an html file?",
+                    "answers": ["<script>", "<javascript>", "<div onLoad=\"...\">", "<function>"]
+                },
+                {
+                    "query": "how do you iterate through the items in a list?",
+                    "answers": ["for (item of list) {...}", "for (item in list) {...}", "for (list) {...}", "foreach (item in list) {...}"]
+                },
+                {
+                    "query": "how do you create a function in javascript?",
+                    "answers": ["function myFunction() {}", "let function = myFunction() {}", "let myFunction(function) = {}", "let myFunction = {}"]
+                },
+                {
+                    "query": "how do you call a function?",
+                    "answers": ["myFunction();", "function myFunction()", "new myFunction()", "call(myFunction)"]
+                },
+                {
+                    "query": "how do you write a comment in javascript?",
+                    "answers": ["// comment", "<!-- comment -->", "# comment", "\"\"\" comment \"\"\""]
+                },
+                {
+                    "query": "I'll give you this one",
+                    "answers": ["Click here!", "Not here!", "Not here!", "Not here!"]
+                },
+                {
+                    "query": "I was too lazy to finish all of them",
+                    "answers": ["Click here!", "Not here!", "Not here!", "Not here!"]
+                },
+                {
+                    "query": "You should not ever see these unless you make websites with only css and html",
+                    "answers": ["Click here!", "Not here!", "Not here!", "Not here!"]
+                },
+                {
+                    "query": "*cough*",
+                    "answers": ["Click here!", "Not here!", "Not here!", "Not here!"]
+                }
+            ]
+        }
+    ]
+}

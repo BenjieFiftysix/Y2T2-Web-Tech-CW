@@ -1,0 +1,18 @@
+<section class="question title">
+    <h1>{query}</h1>
+    <img src="media/{image}" alt="" />
+</section>
+<section class="answer">
+
+    <div id="opt_0" onClick="selectAnswer(opt_0)" style="background-color:#0097FF">{ans1}</div>
+    <div id="opt_1" onClick="selectAnswer(opt_1)" style="background-color:#1FA100">{ans2}</div>
+    <div id="opt_2" onClick="selectAnswer(opt_2)" style="background-color:#E48A00">{ans3}</div>
+    <div id="opt_3" onClick="selectAnswer(opt_3)" style="background-color:#C40000">{ans4}</div>
+
+</section>
+<section class="button">
+    <div class="hidden" id="next_q" onClick="nextQuestion()">Next Question</div>
+</section>
+<div class="bar-outer">
+    <div id="score-bar" class="bar-inner"></div>
+</div>

@@ -1,0 +1,153 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+    background-image: url("media/bricks.png");
+    background-size: 3.5em, 3.25em;
+    image-rendering: pixelated;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+header {
+    height: 2em;
+    overflow: hidden;
+    padding: 0.25em;
+    background-color: #3090FF;
+    box-shadow: 0 0 0.5em 0 #0008;
+}
+header > p {
+    font-size: 1em;
+    padding: 0.25em;
+    margin: 0;
+    display: block;
+    float: right;
+}
+header img {
+    max-height: 100%;
+}
+
+footer {
+    height: 2em;
+    overflow: hidden;
+    background-color: #3090FF;
+    padding: 0.25em;
+}
+footer > * {
+    float: left;
+    padding: 0.5em;
+    font-size: 0.5em;
+}
+
+main {
+    height: calc(100% - 5.5em);
+    margin: 0.25em;
+    overflow: auto;
+}
+
+section img {
+    max-width: 50%;
+    max-height: 30vh;
+}
+
+.title {
+    max-width: 40em;
+    margin: 0.5em auto;
+    text-align: center;
+    display: block;
+    background-color: #FF00C2;
+    border: 0.5em ridge #F05010;
+}
+
+.question {
+    max-height: 50%;
+    overflow: auto;
+}
+.question h1 {
+    font-size: 1em;
+}
+
+.answer {
+    max-width: 40em;
+/*     max-width: calc(98vw - 5em); */
+    margin: 0.25em auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.answer > div {
+    display: block;
+    width: 16em;
+    padding: 1em;
+    margin: 0.5em;
+    overflow: hidden;
+    transition: transform 0.2s, background-color 0.2s, filter 0.2s;
+    border: 0.5em ridge #F05010;
+    cursor: default;
+}
+
+.answer > .right {
+    border-color: #30A030;
+    transform: scale(1.05);
+    filter: brightness(125%);
+}
+
+.answer > .wrong {
+    border-color: #B82B00;
+    transform: scale(0.95);
+    filter: brightness(75%);
+}
+
+.bar-outer {
+    position: absolute;
+    height: 50vh;
+    top: 25%;
+    width: 2em;
+    right: 2%;
+    background-color: #E48A00;
+    overflow: hidden;
+    padding: 0.25em;
+    border: 0.5em ridge #F05010;
+}
+
+.bar-inner {
+    width: 100%;
+    height: 98%;
+    transition: height 0.2s;
+}
+
+.bar-inner::after {
+    height: calc(50vh - 100%);
+    top: 100%;
+    background-color: #0097FF;
+    background: linear-gradient(0deg, #000000 -20vh, #0097FF 100%);
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 0.25em solid #FFF;
+}
+
+
+.button {
+    text-align: center;
+}
+.button > div {
+    display: inline-block;
+    padding: 0.5em;
+    background-color: #1FA100;
+    border: 0.5em ridge #F05010;
+    cursor: default;
+    transition: filter 0.2s;
+}
+
+section > div:hover {
+    filter: brightness(125%);
+}
+
+.hidden {
+    display: none !important;
+}
